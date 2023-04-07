@@ -3,7 +3,7 @@
 Welcome to the English Channel of 「远程公社」! This channel aims to help members improve their English language skills through weekly online English Free Chat events. We also share English learning resources and maintain notes from our Free Chat sessions in this repository.
 
 # Schedule
-HKT 10:30 AM - 12:00 PM
+HKT 10:30 AM - 12:00 PM  
 Upcoming Session: [What's your best practice for working remotely?](https://mp.weixin.qq.com/s/4KZV1viR8ve5tWIwJkr2iQ)
 
 
