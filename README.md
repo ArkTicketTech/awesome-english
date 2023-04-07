@@ -10,10 +10,11 @@ Our weekly English Free Chat sessions provide a platform for members to practice
 
 - Session 2: [All about ChatGPT](https://mp.weixin.qq.com/s/P4n9K9J8vXGUNzwjKYL6hw)
 - Session 3: [How to create a side project (with AI infrastructure)?](https://mp.weixin.qq.com/s/YMs9e-SNh4J8gDHEazYQAA)
+- Session 4: [The most impressive interview you've ever had.](https://mp.weixin.qq.com/s/rlsUH6zisb7Shn8C0UduJQ)
 
 
 ### Upcoming Sessions
-- Session 4: The most impressive interview you've ever had
+- Session 5: [What's your best practice for working remotely?](https://mp.weixin.qq.com/s/4KZV1viR8ve5tWIwJkr2iQ)
 
 ## Resources
 
