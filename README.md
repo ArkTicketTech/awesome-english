@@ -34,3 +34,6 @@ Do you have an interesting topic for our English Free Chat sessions? Please subm
 We welcome contributions! If you have English learning materials or notes from our Free Chat sessions that you'd like to share, please submit a pull request or create an issue.
 
 
+# Friends Link
+![image](https://user-images.githubusercontent.com/8191686/232979612-d894683f-4548-4ea7-8aa2-a09f20447110.png)
+
