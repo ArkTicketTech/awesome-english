@@ -12,14 +12,11 @@ Upcoming Session: [What's your best practice for working remotely?](https://mp.w
 Our weekly English Free Chat sessions provide a platform for members to practice their English speaking skills, exchange ideas, and learn from one another in a relaxed and supportive environment.
 
 ### Past Sessions
-
-- Session 2: [All about ChatGPT](https://mp.weixin.qq.com/s/P4n9K9J8vXGUNzwjKYL6hw)
-- Session 3: [How to create a side project (with AI infrastructure)?](https://mp.weixin.qq.com/s/YMs9e-SNh4J8gDHEazYQAA)
-- Session 4: [The most impressive interview you've ever had.](https://mp.weixin.qq.com/s/rlsUH6zisb7Shn8C0UduJQ)
-
-
-### Upcoming Sessions
+- Session 7: [How do you deal with age and career anxiety?](https://mp.weixin.qq.com/s/rxeVpJKIp5MOllg64uRIJg)
 - Session 5: [What's your best practice for working remotely?](https://mp.weixin.qq.com/s/4KZV1viR8ve5tWIwJkr2iQ)
+- Session 4: [The most impressive interview you've ever had.](https://mp.weixin.qq.com/s/rlsUH6zisb7Shn8C0UduJQ)
+- Session 3: [How to create a side project (with AI infrastructure)?](https://mp.weixin.qq.com/s/YMs9e-SNh4J8gDHEazYQAA)
+- Session 2: [All about ChatGPT](https://mp.weixin.qq.com/s/P4n9K9J8vXGUNzwjKYL6hw)
 
 ## Resources
 
