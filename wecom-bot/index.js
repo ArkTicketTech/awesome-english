@@ -7,6 +7,7 @@ const path = require("path");
 const indexFile = path.join(__dirname, "index.txt");
 const webhookUrl = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${process.env.WEBHOOK_KEY}`;
 
+const startDate = "2024-05-12";
 const resources = [
   "[【最牛保姆级听力】美国人在工作中最真实的聊天，你能听懂多少？](https://b23.tv/A0Oqf9q)",
 ];
@@ -35,7 +36,12 @@ function getDateString() {
 
 // 发送消息的函数
 async function sendMessage() {
-  const currentIndex = loadIndex();
+  const currentDate = new Date();
+  const currentIndex = Math.ceil(
+    Math.abs(currentDate - new Date(startDate)) / 1000 / 60 / 60 / 24
+  );
+  console.log(currentIndex);
+
   const resource = resources[currentIndex % resources.length];
 
   const messageContent = `
@@ -60,7 +66,6 @@ async function sendMessage() {
   try {
     const response = await axios.post(webhookUrl, message);
     console.log("Message sent successfully:", response.data);
-    saveIndex(currentIndex + 1);
   } catch (error) {
     console.error("Failed to send message:", error);
   }
