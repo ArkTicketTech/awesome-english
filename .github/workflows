@@ -1,0 +1,35 @@
+name: Run node script in wecom-bot directory at Beijing Time 7:30 AM
+
+on:
+  schedule:
+    # 每天的 UTC 时间 23:30，相当于北京时间次日 7:30 AM
+    - cron: "30 23 * * *"
+  workflow_dispatch: # 添加这行允许手动触发
+
+jobs:
+  execute_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3 # 使用最新版本
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16" # 根据你的项目需求选择 Node.js 的版本
+
+      - name: Change directory
+        run: cd wecom-bot
+
+      - name: Install dependencies
+        run: |
+          cd wecom-bot
+          npm install
+
+      - name: Run script
+        run: |
+          cd wecom-bot
+          node index.js
+        env:
+          WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}
