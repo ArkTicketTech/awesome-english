@@ -62,7 +62,8 @@ async function sendMessage() {
   );
   console.log(currentIndex);
 
-  const resource = resources[currentIndex % resources.length];
+  // hack code: seems there is time zone issue
+  const resource = resources[(currentIndex + 1) % resources.length];
 
   const messageContent = `
 	⭐ 【${getDateString()}】 大家早上好呀！
